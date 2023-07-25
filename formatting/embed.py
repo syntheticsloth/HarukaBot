@@ -8,10 +8,10 @@ def gen_embed(name=None, icon_url=None, title=None, content=None, colour=None, t
     if colour:
         e = discord.Embed(colour=colour)
     else:
-        e = discord.Embed(colour=0xBBDE22)
+        e = discord.Embed(colour=0x99CDFF)
     if name and icon_url:
         e.set_author(name=name, icon_url=icon_url)
-    e.set_footer(text="Don't say I didn't warn you")
+    e.set_footer(text="Let's give it our all!")
     e.title = title
     e.description = content
     if thumb_url:
