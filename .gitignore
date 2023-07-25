@@ -1,0 +1,12 @@
+config.json
+*.pyc
+# *.log
+*.log.last
+warn_db.csv
+venv
+.idea
+temp.py
+commands/temp.py
+data/img/icons/
+data/img/imgTmp
+data/img/titles
