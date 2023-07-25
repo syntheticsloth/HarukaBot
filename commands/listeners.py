@@ -19,7 +19,7 @@ async def on_guild_join(guild):
     if general and general.permissions_for(guild.me).send_messages:
         embed = gen_embed(name=f'{guild.name}',
                           icon_url=guild.icon.url,
-                          title='Thanks for inviting me...',
+                          title='Thanks for inviting me!',
                           content=('You can get started by typing `/help` to find the current command list.'
                                    # '\nChange the command prefix and configure server settings using `/settings`!\n\n'
                                    # 'Source code: https://github.com/neon10lights/Epsilon\n'
@@ -39,7 +39,7 @@ async def on_guild_join(guild):
             if channel.permissions_for(guild.me).send_messages:
                 embed = gen_embed(name=f'{guild.name}',
                                   icon_url=guild.icon.url,
-                                  title='Thanks for inviting me...',
+                                  title='Thanks for inviting me!',
                                   content=('You can get started by typing `/help` to find the current command list.'
                                            # '\nChange the command prefix and configure server settings using `/settings`'
                                            # '!\n\nSource code: https://github.com/neon10lights/Epsilon\n'
