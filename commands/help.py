@@ -46,7 +46,7 @@ class Help(commands.Cog):
                                                       # 'https://forms.gle/4LYZvADpoe12R6BZ8'
                                                       ))
             help_message.set_thumbnail(url=bot_icon_url)
-            help_message.set_footer(text='Don\'t say I didn\'t warn you')
+            help_message.set_footer(text='Let\'s give it our all!')
             for x in self.bot.cogs:
                 cog_commands = (self.bot.get_cog(x)).get_commands()
                 if cog_commands and x not in ['Dev']:
