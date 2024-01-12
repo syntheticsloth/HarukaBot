@@ -163,19 +163,17 @@ class Tiering(commands.Cog):
                      "```\"Score boost 80% for 5 seconds; For every member of [UNIT] in your team, there will be an extra score boost of 10%, with a maximum boost of 130%\"```\n"
                      "2. **Life Scorer [LScorer]**\n"
                      "```\"Score boost 70% if life is under 800 (100% if life is over 800) for 5 seconds. For every 10 life, score is increased by +1% (up to 120%)\"```\n"
-                     "3. **Perfect Scorer [PScorer]**\n"
+                     "3. **Accuracy Scorer [AScorer/GScorer]**\n"
+                     "```\"Score 70% for 5s and Score 120% until a GOOD or worse tap is recorded.\"```\n"
+                     "4. **Perfect Scorer [PScorer]**\n"
                      "```\"110% score boost for 5 seconds for PERFECTs only.\"```\n"
-                     "4. **Scorer**\n"
+                     "5. **Scorer**\n"
                      "```\"100% score boost for 5 seconds.\"```\n"
-                     "5. **Healer (OK ONLY IN CC)**\n"
+                     "6. **Healer (OK ONLY IN CC)**\n"
                      "```\"Recover 350 life; 80% score boost for 5 seconds.\"```\n"
                      "**NOTES**\n"
                      "Leader trigger is the most powerful (furthest card on left) - put your strongest skill card here\n\n"
-                     "Other cards still trigger their skills in song - use your best skill cards in every team slot\n\n"
-                     "DON'T USE Accuracy Scorer / Combo Scorer [AScorer/GScorer] 9/10 TIMES\n"
-                     "```\"70% score boost for 5 seconds (120% until GREAT or lower)\"```\n"
-                     "Tierers have skill issue and can't all perfect combo all the time\n\n"
-                     "Use only if your tierers are built different/say it*s OK"))
+                     "Other cards still trigger their skills in song - use your best skill cards in every team slot\n\n"))
         embed.set_image(url='https://svenxiety.xyz/junk/fill_best.png')
         embed.set_footer(text=discord.Embed.Empty)
         await dest_channel.send(embed=embed)
@@ -343,19 +341,17 @@ class Tiering(commands.Cog):
                      "```\"Score boost 80% for 5 seconds; For every member of [UNIT] in your team, there will be an extra score boost of 10%, with a maximum boost of 130%\"```\n"
                      "2. **Life Scorer [LScorer]**\n"
                      "```\"Score boost 70% if life is under 800 (100% if life is over 800) for 5 seconds. For every 10 life, score is increased by +1% (up to 120%)\"```\n"
-                     "3. **Perfect Scorer [PScorer]**\n"
+                     "3. **Accuracy Scorer [AScorer/GScorer]**\n"
+                     "```\"Score 70% for 5s and Score 120% until a GOOD or worse tap is recorded.\"```\n"
+                     "4. **Perfect Scorer [PScorer]**\n"
                      "```\"110% score boost for 5 seconds for PERFECTs only.\"```\n"
-                     "4. **Scorer**\n"
+                     "5. **Scorer**\n"
                      "```\"100% score boost for 5 seconds.\"```\n"
-                     "5. **Healer (OK ONLY IN CC)**\n"
+                     "6. **Healer (OK ONLY IN CC)**\n"
                      "```\"Recover 350 life; 80% score boost for 5 seconds.\"```\n"
                      "**NOTES**\n"
                      "Leader trigger is the most powerful (furthest card on left) - put your strongest skill card here\n\n"
-                     "Other cards still trigger their skills in song - use your best skill cards in every team slot\n\n"
-                     "DON'T USE Accuracy Scorer / Combo Scorer [AScorer/GScorer] 9/10 TIMES\n"
-                     "```\"70% score boost for 5 seconds (120% until GREAT or lower)\"```\n"
-                     "Tierers have skill issue and can't all perfect combo all the time\n\n"
-                     "Use only if your tierers are built different/say it*s OK"))
+                     "Other cards still trigger their skills in song - use your best skill cards in every team slot\n\n"))
         embed.set_footer(text=discord.Embed.Empty)
         await dest_channel.send(embed=embed)
         embed = gen_embed(
@@ -419,19 +415,17 @@ class Tiering(commands.Cog):
                      "```\"Score boost 80% for 5 seconds; For every member of [UNIT] in your team, there will be an extra score boost of 10%, with a maximum boost of 130%\"```\n"
                      "2. **Life Scorer [LScorer]**\n"
                      "```\"Score boost 70% if life is under 800 (100% if life is over 800) for 5 seconds. For every 10 life, score is increased by +1% (up to 120%)\"```\n"
-                     "3. **Perfect Scorer [PScorer]**\n"
+                     "3. **Accuracy Scorer [AScorer/GScorer]**\n"
+                     "```\"Score 70% for 5s and Score 120% until a GOOD or worse tap is recorded.\"```\n"
+                     "4. **Perfect Scorer [PScorer]**\n"
                      "```\"110% score boost for 5 seconds for PERFECTs only.\"```\n"
-                     "4. **Scorer**\n"
+                     "5. **Scorer**\n"
                      "```\"100% score boost for 5 seconds.\"```\n"
-                     "5. **Healer (BOOOOO)**\n"
+                     "6. **Healer (BOOOOO)**\n"
                      "```\"Recover 350 life; 80% score boost for 5 seconds.\"```\n"
                      "**NOTES**\n"
                      "• Leader trigger is the most powerful (furthest card on left) - put your strongest skill card here\n\n"
-                     "• Other cards still trigger their skills in song - use your best skill cards in every team slot\n\n"
-                     "• DON'T USE Accuracy Scorer / Combo Scorer [AScorer/GScorer] 9/10 TIMES\n"
-                     "```\"70% score boost for 5 seconds (120% until GREAT or lower)\"```\n"
-                     "Tierers have skill issue and can't all perfect combo all the time\n\n"
-                     "Use only if your tierers are built different/say it's OK"))
+                     "• Other cards still trigger their skills in song - use your best skill cards in every team slot\n\n"))
         embed.set_image(url='https://svenxiety.xyz/junk/fill_best.png')
         embed.set_footer(text=discord.Embed.Empty)
         await dest_channel.send(embed=embed)
@@ -486,7 +480,7 @@ class Tiering(commands.Cog):
         await dest_channel.send(embed=embed)
         embed = gen_embed(
             title='Cards',
-            content=("**Ascorer:** Accuracy Scorer card. \"*Score +xx% for 5s and Score +xxx% until a GREAT or worse "
+            content=("**Ascorer:** Accuracy Scorer card. \"*Score +xx% for 5s and Score +xxx% until a GOOD or worse "
                      "tap is recorded.*\"\n\n"
                      "**Fes:** Colorful Festival card, AKA Colofes or Colorfes\n\n"
                      "**Gscorer:** Another name for Ascorer (Accuracy Scorer)\n\n"
