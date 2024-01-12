@@ -361,22 +361,22 @@ class Tiering(commands.Cog):
         embed.set_footer(text=discord.Embed.Empty)
         await dest_channel.send(embed=embed)
         embed = gen_embed(
-            title="Fill Team <180k Talent (Pro Room Sandbag)",
-            content=("Your best possible fill team while staying under 180k talent. This is used for sandbagging in Pro rooms during CC events.\n\n"
+            title="Fill Team <180k Talent",
+            content=("Your best possible fill team while staying under 180k talent. This is used for sandbagging during CC events.\n\n"
                      "Unleveled 4\* cards are useful here, but 3\*, 2\* and 1\* cards can be swapped in as well. Prioritize scorer abilities."))
         embed.set_image(url='https://svenxiety.xyz/junk/fill_sb1.png')
         embed.set_footer(text=discord.Embed.Empty)
         await dest_channel.send(embed=embed)
         embed = gen_embed(
-            title="Fill Team <120k Talent (Gen Room Sandbag)",
-            content=("Your best possible fill team while staying under 120k talent. This is used for sandbagging in Gen rooms during CC events.\n\n"
+            title="Fill Team <120k Talent",
+            content=("Your best possible fill team while staying under 120k talent. This is used for sandbagging during CC events.\n\n"
                      "Unleveled 4\* cards are useful here, but 3\*, 2\* and 1\* cards can be swapped in as well. Prioritize scorer abilities and try to get talent as low as possible."))
         embed.set_image(url='https://svenxiety.xyz/junk/fill_sb2.png')
         embed.set_footer(text=discord.Embed.Empty)
         await dest_channel.send(embed=embed)
         embed = gen_embed(
             title="Sandbag Heal Team",
-            content=("This team should be similar to the previous sandbag team, but with a Healer lead. Aim for less than 120k talent. Only your leader needs to be a Healer.\n\n"
+            content=("This team should be similar to the previous sandbag team, but with a Healer lead. Aim for less than 180k talent. Only your leader needs to be a Healer.\n\n"
                      "Use a regular Healer rather than a Birthday Healer, as regular Healers provide higher score boost."))
         embed.set_image(url='https://svenxiety.xyz/junk/fill_hsb.png')
         embed.set_footer(text=discord.Embed.Empty)
